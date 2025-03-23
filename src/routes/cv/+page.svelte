@@ -20,9 +20,9 @@
     </div>
 
     <!-- Main Content -->
-    <div class="grid grid-cols-2 gap-4 p-4">
+    <div class="w-full flex flex-row gap-4 p-4 border-2 border-gray-200 ">
         <!-- Left Column -->
-        <div>
+        <div class="w-auto border-r-2 border-gray-200">
             <div class="flex flex-col gap-4">
                 <!-- Summary -->
                 <div>
@@ -65,6 +65,36 @@
                 </div>
                 
             </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="w-4/12 flex flex-col gap-4">
+            <!-- Skills -->
+            <div>
+                <div class="text-lg">Skills</div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <div class="text-sm">Product Management</div>
+                        <div class="text-sm">Strategic Planning</div>
+                        <div class="text-sm">Market Research</div>
+                        <div class="text-sm">Cross-functional Team Leadership</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div>
+                <div class="text-lg">Achievements</div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <div class="text-sm">Product Management</div>
+                        <div class="text-sm">Strategic Planning</div>
+                        <div class="text-sm">Market Research</div>
+                        <div class="text-sm">Cross-functional Team Leadership</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
   
